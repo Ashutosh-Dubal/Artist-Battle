@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Secrets / environment files ----
+.env
+*.env
+.env.*
+secrets.json
+credentials.json
+
+# ---- Logs ----
+*.log
+
+# ---- Data (keep repo light) ----
+data/raw/
+data/clean/
+*.csv
+*.parquet
+*.pkl
+
+# ---- Dash caches (if you add any) ----
+.cache/
